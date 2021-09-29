@@ -1,0 +1,318 @@
+ {
+   "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+   "version": "2.1.0",
+   "runs": [
+     {
+       "tool": {
+         "driver": {
+           "name": "Trivy",
+           "informationUri": "https://github.com/aquasecurity/trivy",
+           "fullName": "Trivy Vulnerability Scanner",
+           "version": "0.15.0",
+           "rules": [
+             {
+               "id": "newbuild (alpine 3.11.6): avahi-libs-0.7-r5 CVE-2021-3468",
+               "name": "OS Package Vulnerability (Alpine)",
+               "shortDescription": {
+                 "text": "CVE-2021-3468 Package: avahi-libs"
+               },
+               "fullDescription": {
+                 "text": "avahi: Local DoS by event-busy-loop from writing long lines to /run/avahi-daemon/socket."
+               },
+               "defaultConfiguration": {
+                 "level": "warning"
+               },
+               "helpUri": "https://avd.aquasec.com/nvd/cve-2021-3468",
+               "help": {
+                 "text": "Vulnerability CVE-2021-3468\nSeverity: MEDIUM\nPackage: avahi-libs\nInstalled Version: 0.7-r5\nFixed Version: 0.8-r1\nLink: [CVE-2021-3468](https://avd.aquasec.com/nvd/cve-2021-3468)",
+                 "markdown": "**Vulnerability CVE-2021-3468**\n| Severity | Package | Installed Version | Fixed Version | Link |\n| --- | --- | --- | --- | --- |\n|MEDIUM|avahi-libs|0.7-r5|0.8-r1|[CVE-2021-3468](https://avd.aquasec.com/nvd/cve-2021-3468)|\n"
+               },
+               "properties": {
+                 "tags": [
+                   "vulnerability",
+                   "MEDIUM",
+                   "avahi-libs"
+                 ],
+                 "precision": "very-high"
+               }
+             },
+             {
+               "id": "newbuild (alpine 3.11.6): libvpx-1.8.1-r0 CVE-2020-0034",
+               "name": "OS Package Vulnerability (Alpine)",
+               "shortDescription": {
+                 "text": "CVE-2020-0034 Package: libvpx"
+               },
+               "fullDescription": {
+                 "text": "libvpx: Out of bounds read in vp8_decode_frame in decodeframe.c."
+               },
+               "defaultConfiguration": {
+                 "level": "error"
+               },
+               "helpUri": "https://avd.aquasec.com/nvd/cve-2020-0034",
+               "help": {
+                 "text": "Vulnerability CVE-2020-0034\nSeverity: HIGH\nPackage: libvpx\nInstalled Version: 1.8.1-r0\nFixed Version: 1.8.2-r0\nLink: [CVE-2020-0034](https://avd.aquasec.com/nvd/cve-2020-0034)",
+                 "markdown": "**Vulnerability CVE-2020-0034**\n| Severity | Package | Installed Version | Fixed Version | Link |\n| --- | --- | --- | --- | --- |\n|HIGH|libvpx|1.8.1-r0|1.8.2-r0|[CVE-2020-0034](https://avd.aquasec.com/nvd/cve-2020-0034)|\n"
+               },
+               "properties": {
+                 "tags": [
+                   "vulnerability",
+                   "HIGH",
+                   "libvpx"
+                 ],
+                 "precision": "very-high"
+               }
+             },
+             {
+               "id": "home/sauce/package-lock.json: class-transformer-0.2.3 CVE-2020-7637",
+               "name": "Programming Language Vulnerability (Npm)",
+               "shortDescription": {
+                 "text": "CVE-2020-7637 Package: class-transformer"
+               },
+               "fullDescription": {
+                 "text": "Prototype pollution in class-transformer."
+               },
+               "defaultConfiguration": {
+                 "level": "warning"
+               },
+               "helpUri": "https://avd.aquasec.com/nvd/cve-2020-7637",
+               "help": {
+                 "text": "Vulnerability CVE-2020-7637\nSeverity: MEDIUM\nPackage: class-transformer\nInstalled Version: 0.2.3\nFixed Version: 0.3.1\nLink: [CVE-2020-7637](https://avd.aquasec.com/nvd/cve-2020-7637)",
+                 "markdown": "**Vulnerability CVE-2020-7637**\n| Severity | Package | Installed Version | Fixed Version | Link |\n| --- | --- | --- | --- | --- |\n|MEDIUM|class-transformer|0.2.3|0.3.1|[CVE-2020-7637](https://avd.aquasec.com/nvd/cve-2020-7637)|\n"
+               },
+               "properties": {
+                 "tags": [
+                   "vulnerability",
+                   "MEDIUM",
+                   "class-transformer"
+                 ],
+                 "precision": "very-high"
+               }
+             },
+             {
+               "id": "home/sauce/package-lock.json: debug-2.1.3 CVE-2017-16137",
+               "name": "Programming Language Vulnerability (Npm)",
+               "shortDescription": {
+                 "text": "CVE-2017-16137 Package: debug"
+               },
+               "fullDescription": {
+                 "text": "nodejs-debug: Regular expression Denial of Service."
+               },
+               "defaultConfiguration": {
+                 "level": "warning"
+               },
+               "helpUri": "https://avd.aquasec.com/nvd/cve-2017-16137",
+               "help": {
+                 "text": "Vulnerability CVE-2017-16137\nSeverity: MEDIUM\nPackage: debug\nInstalled Version: 2.1.3\nFixed Version: 3.1.0, 2.6.9\nLink: [CVE-2017-16137](https://avd.aquasec.com/nvd/cve-2017-16137)",
+                 "markdown": "**Vulnerability CVE-2017-16137**\n| Severity | Package | Installed Version | Fixed Version | Link |\n| --- | --- | --- | --- | --- |\n|MEDIUM|debug|2.1.3|3.1.0, 2.6.9|[CVE-2017-16137](https://avd.aquasec.com/nvd/cve-2017-16137)|\n"
+               },
+               "properties": {
+                 "tags": [
+                   "vulnerability",
+                   "MEDIUM",
+                   "debug"
+                 ],
+                 "precision": "very-high"
+               }
+             },
+             {
+               "id": "home/sauce/package-lock.json: ms-0.7.0 CVE-2015-8315",
+               "name": "Programming Language Vulnerability (Npm)",
+               "shortDescription": {
+                 "text": "CVE-2015-8315 Package: ms"
+               },
+               "fullDescription": {
+                 "text": "nodejs-ms: regular expression denial of service."
+               },
+               "defaultConfiguration": {
+                 "level": "warning"
+               },
+               "helpUri": "https://avd.aquasec.com/nvd/cve-2015-8315",
+               "help": {
+                 "text": "Vulnerability CVE-2015-8315\nSeverity: MEDIUM\nPackage: ms\nInstalled Version: 0.7.0\nFixed Version: 0.7.1\nLink: [CVE-2015-8315](https://avd.aquasec.com/nvd/cve-2015-8315)",
+                 "markdown": "**Vulnerability CVE-2015-8315**\n| Severity | Package | Installed Version | Fixed Version | Link |\n| --- | --- | --- | --- | --- |\n|MEDIUM|ms|0.7.0|0.7.1|[CVE-2015-8315](https://avd.aquasec.com/nvd/cve-2015-8315)|\n"
+               },
+               "properties": {
+                 "tags": [
+                   "vulnerability",
+                   "MEDIUM",
+                   "ms"
+                 ],
+                 "precision": "very-high"
+               }
+             },
+             {
+               "id": "home/sauce/package-lock.json: netmask-1.0.6 CVE-2021-28918",
+               "name": "Programming Language Vulnerability (Npm)",
+               "shortDescription": {
+                 "text": "CVE-2021-28918 Package: netmask"
+               },
+               "fullDescription": {
+                 "text": "nodejs-netmask: improper input validation of octal input data."
+               },
+               "defaultConfiguration": {
+                 "level": "error"
+               },
+               "helpUri": "https://avd.aquasec.com/nvd/cve-2021-28918",
+               "help": {
+                 "text": "Vulnerability CVE-2021-28918\nSeverity: CRITICAL\nPackage: netmask\nInstalled Version: 1.0.6\nFixed Version: 1.1.0\nLink: [CVE-2021-28918](https://avd.aquasec.com/nvd/cve-2021-28918)",
+                 "markdown": "**Vulnerability CVE-2021-28918**\n| Severity | Package | Installed Version | Fixed Version | Link |\n| --- | --- | --- | --- | --- |\n|CRITICAL|netmask|1.0.6|1.1.0|[CVE-2021-28918](https://avd.aquasec.com/nvd/cve-2021-28918)|\n"
+               },
+               "properties": {
+                 "tags": [
+                   "vulnerability",
+                   "CRITICAL",
+                   "netmask"
+                 ],
+                 "precision": "very-high"
+               }
+             },
+             {
+               "id": "home/sauce/package-lock.json: netmask-1.0.6 CVE-2021-29418",
+               "name": "Programming Language Vulnerability (Npm)",
+               "shortDescription": {
+                 "text": "CVE-2021-29418 Package: netmask"
+               },
+               "fullDescription": {
+                 "text": "nodejs-netmask: incorrectly parses an IP address that has octal integer with invalid character."
+               },
+               "defaultConfiguration": {
+                 "level": "warning"
+               },
+               "helpUri": "https://avd.aquasec.com/nvd/cve-2021-29418",
+               "help": {
+                 "text": "Vulnerability CVE-2021-29418\nSeverity: MEDIUM\nPackage: netmask\nInstalled Version: 1.0.6\nFixed Version: 2.0.1\nLink: [CVE-2021-29418](https://avd.aquasec.com/nvd/cve-2021-29418)",
+                 "markdown": "**Vulnerability CVE-2021-29418**\n| Severity | Package | Installed Version | Fixed Version | Link |\n| --- | --- | --- | --- | --- |\n|MEDIUM|netmask|1.0.6|2.0.1|[CVE-2021-29418](https://avd.aquasec.com/nvd/cve-2021-29418)|\n"
+               },
+               "properties": {
+                 "tags": [
+                   "vulnerability",
+                   "MEDIUM",
+                   "netmask"
+                 ],
+                 "precision": "very-high"
+               }
+             }]
+         }
+       },
+       "results": [
+         {
+           "ruleId": "newbuild (alpine 3.11.6): avahi-libs-0.7-r5 CVE-2021-3468",
+           "ruleIndex": 0,
+           "level": "warning",
+           "message": {
+             "text": "A flaw was found in avahi in versions 0.6 up to 0.8. The event used to signal the termination of the client connection on the avahi Unix socket is not correctly handled in the client_work function, allowing a local attacker to trigger an infinite loop. The highest threat from this vulnerability is to the availability of the avahi service, which becomes unresponsive after this flaw is triggered."
+           },
+           "locations": [{
+             "physicalLocation": {
+               "artifactLocation": {
+                 "uri": "newbuild",
+                 "uriBaseId": "ROOTPATH"
+               }
+             }
+           }]
+         },
+         {
+           "ruleId": "newbuild (alpine 3.11.6): libvpx-1.8.1-r0 CVE-2020-0034",
+           "ruleIndex": 1,
+           "level": "error",
+           "message": {
+             "text": "In vp8_decode_frame of decodeframe.c, there is a possible out of bounds read due to improper input validation. This could lead to remote information disclosure if error correction were turned on, with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-8.0 Android-8.1Android ID: A-62458770."
+           },
+           "locations": [{
+             "physicalLocation": {
+               "artifactLocation": {
+                 "uri": "newbuild",
+                 "uriBaseId": "ROOTPATH"
+               }
+             }
+           }]
+         },
+         {
+           "ruleId": "home/sauce/package-lock.json: class-transformer-0.2.3 CVE-2020-7637",
+           "ruleIndex": 0,
+           "level": "warning",
+           "message": {
+             "text": "class-transformer before 0.3.1 allow attackers to perform Prototype Pollution. The classToPlainFromExist function could be tricked into adding or modifying properties of Object.prototype using a __proto__ payload."
+           },
+           "locations": [{
+             "physicalLocation": {
+               "artifactLocation": {
+                 "uri": "home/sauce/package-lock.json",
+                 "uriBaseId": "ROOTPATH"
+               }
+             }
+           }]
+         },
+         {
+           "ruleId": "home/sauce/package-lock.json: debug-2.1.3 CVE-2017-16137",
+           "ruleIndex": 1,
+           "level": "warning",
+           "message": {
+             "text": "The debug module is vulnerable to regular expression denial of service when untrusted user input is passed into the o formatter. It takes around 50k characters to block for 2 seconds making this a low severity issue."
+           },
+           "locations": [{
+             "physicalLocation": {
+               "artifactLocation": {
+                 "uri": "home/sauce/package-lock.json",
+                 "uriBaseId": "ROOTPATH"
+               }
+             }
+           }]
+         },
+         {
+           "ruleId": "home/sauce/package-lock.json: ms-0.7.0 CVE-2015-8315",
+           "ruleIndex": 2,
+           "level": "warning",
+           "message": {
+             "text": "The ms package before 0.7.1 for Node.js allows attackers to cause a denial of service (CPU consumption) via a long version string, aka a &#34;regular expression denial of service (ReDoS).&#34;."
+           },
+           "locations": [{
+             "physicalLocation": {
+               "artifactLocation": {
+                 "uri": "home/sauce/package-lock.json",
+                 "uriBaseId": "ROOTPATH"
+               }
+             }
+           }]
+         },
+         {
+           "ruleId": "home/sauce/package-lock.json: netmask-1.0.6 CVE-2021-28918",
+           "ruleIndex": 3,
+           "level": "error",
+           "message": {
+             "text": "Improper input validation of octal strings in netmask npm package v1.0.6 and below allows unauthenticated remote attackers to perform indeterminate SSRF, RFI, and LFI attacks on many of the dependent packages. A remote unauthenticated attacker can bypass packages relying on netmask to filter IPs and reach critical VPN or LAN hosts."
+           },
+           "locations": [{
+             "physicalLocation": {
+               "artifactLocation": {
+                 "uri": "home/sauce/package-lock.json",
+                 "uriBaseId": "ROOTPATH"
+               }
+             }
+           }]
+         },
+         {
+           "ruleId": "home/sauce/package-lock.json: netmask-1.0.6 CVE-2021-29418",
+           "ruleIndex": 4,
+           "level": "warning",
+           "message": {
+             "text": "The netmask package before 2.0.1 for Node.js mishandles certain unexpected characters in an IP address string, such as an octal digit of 9. This (in some situations) allows attackers to bypass access control that is based on IP addresses. NOTE: this issue exists because of an incomplete fix for CVE-2021-28918."
+           },
+           "locations": [{
+             "physicalLocation": {
+               "artifactLocation": {
+                 "uri": "home/sauce/package-lock.json",
+                 "uriBaseId": "ROOTPATH"
+               }
+             }
+           }]
+         }],
+       "columnKind": "utf16CodeUnits",
+       "originalUriBaseIds": {
+         "ROOTPATH": {
+           "uri": "/"
+         }
+       }
+     }
+   ]
+ }
